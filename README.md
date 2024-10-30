@@ -21,7 +21,7 @@ For all OS users, in your terminal, go to your directory, within your python env
 ```sh
 python -m venv my_env
 ```
-Activate the environment, for Linux/MacOS users:
+Activate the environment, for Linux/macOS users:
 
 ```sh
 source my_env/bin/activate
@@ -77,8 +77,11 @@ Here's a simple accounting problem to demonstrate how to use the program.
 ### Windows
 For Windows users, run the setup file and it will be installed onto you system. Run the *.exe* file directly.
 
-### MacOS
+### M
+macOS
 Download the *.dmg* file from the release page, mount it and open the drive. After that, move the main_fifo file into your Applications folder.
+
+After installing it, you have to allow unknown app installation by going to System Settings > Privacy & Security and allow the installation of the app.
 
 ### Ubuntu (Debian)
 Download the *.deb* file from the release page. You may run the installation file directly. Otherwise, you may install it through the command line.
