@@ -10,7 +10,7 @@ Track the ins and outs of inventories, outputs sales revenue, cost of good sold 
 
 ### Author: YongLip Teh
 
-## Dependencies:
+## Dependencies/Modules:
 * tkinter (built in)
 * attrs (version 24.2.0)
 * tkcalendar (version 1.6.1)
@@ -21,7 +21,7 @@ For all OS users, in your terminal, go to your directory, within your python env
 ```sh
 python -m venv my_env
 ```
-Activate the environment, for Linux/macOS users:
+Activate the environment, for Linux/MacOS users:
 
 ```sh
 source my_env/bin/activate
@@ -92,8 +92,7 @@ sudo dpkg -i fifoInventory.deb
 
 
 ### Linux
-As for linux users, go to the directory, in most cases, it is
-
+The following section is for installation through the command line.
 1. Download the tar file from the release page.
 2. Open a terminal, go to the folder where your download has been saved. In most cases,
 ```sh
@@ -134,9 +133,7 @@ After inputting the information into the fields, press <kbd>Enter</kbd> or click
 
 The same inputting method can be done for Sales.
 
-
-![2024-10-29_10-37](https://github.com/user-attachments/assets/7b79dfd3-006f-4c54-a4f4-8cec233aa5a7)
-
+![2024-10-29_10-37](https://github.com/user-attachments/assets/2c7bae08-eb73-44cc-aca7-086fed9d5715)
 
 ### Warning
 The date is for comparison purpose only, only the relative dates matter. If you input two transactions with the same purchase dates, the unique id will distinguish which came first. 
@@ -151,12 +148,14 @@ Press the <kbd>clear</kbd> button to clear the whole list. The index will not be
 ## Calculate
 After inputting all the information, press <kbd>Calculate</kbd> to calculate the Cost of Goods Sold and Sales Revenue. The remaining inventories will be shown in Inventory row.
 
-![2024-10-29_12-00](https://github.com/user-attachments/assets/32aac23e-32f1-44af-884a-a8631a5dad4d)
+![2024-10-29_12-00](https://github.com/user-attachments/assets/eae3083e-6c32-4e8e-9088-7d17339bdd57)
+
 
 ### Calculation Error
 If you try to sell more stuff than your inventory has, it will raise a Calculation error with a pop-up window. Just press <kbd>Ok</kbd> and retype again.
 
-![2024-10-29_12-08](https://github.com/user-attachments/assets/66f17471-5734-4da2-90ba-c63d3939db34)
+![2024-10-29_12-08](https://github.com/user-attachments/assets/c8d4779c-17ef-4058-8d96-9179ddaa7759)
+
 
 ### Light/Dark Mode
 You may choose dark mode or light mode with the light/dark toggle depending on your preference.
@@ -189,7 +188,7 @@ i1.leftover_inventory()=
 	date_iso		= datetime.date(2024, 5, 24), 
 	quantity		= 2, 
 	unit_price		= 3.7, 
-	classification	= 'purchases', 
+	classification		= 'purchases', 
 	index			= 3
 )]
 ```
