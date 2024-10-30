@@ -72,7 +72,9 @@ Here's a simple accounting problem to demonstrate how to use the program.
 | Date | Explanation | Units | Cost/Price ($) |
 | :-- | :---: | :---: | ---: |
 | May 31 | Purchases | 2 | 3.70 |
-## How to run the program (must be edited)
+## Installation
+
+All the files for various different OS can be found in the [release](https://github.com/YongLipTeh/FifoInventory/releases) page.
 
 ### Windows
 For Windows users, run the setup file and it will be installed onto you system. Run the *.exe* file directly.
