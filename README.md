@@ -4,9 +4,9 @@
 
 Track the ins and outs of inventories, outputs sales revenue, cost of good sold and gross profit.
 
-</div>
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
 
 ### Author: YongLip Teh
 
